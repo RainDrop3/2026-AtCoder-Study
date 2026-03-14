@@ -35,7 +35,7 @@
 ### fork 후 원격 저장소에서 로컬 저장소로 파일 받기
 
 ```bash
-git clone https://github.com/[본인 Github 아이디]/2026-AtCoder-Study
+git clone https://github.com/[본인 AtCoder 아이디]/2026-AtCoder-Study
 ```
 
 ### 로컬에서 파일 저장 후 원격 저장소로 올리기
