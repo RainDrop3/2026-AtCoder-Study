@@ -10,7 +10,6 @@ int main(void)
 
     char strings[200010][11];
     int lettersSorted[11][11][26] = {0}; // [length of string][index within string][letter count]
-    int stringArraySize[11] = {0};
 
     scanf("%d", &numberOfRibs);
     for(int i = 0; i < numberOfRibs; i++)
