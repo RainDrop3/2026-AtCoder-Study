@@ -23,7 +23,7 @@ int main(void){
     }
     for(auto s : ans){
         bool bad = false;
-        if(s.size()!=n) bad=true;
+        if(s.size()!=n) bad=true; // 이거때매 틀림;
         for(int i=0; i<s.size(); i++){
             if(v[i].find(s[i])==v[i].end()) {
                 bad = true; break;
